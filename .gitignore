@@ -1,0 +1,4 @@
+.env
+EvoMerge-mergekit/merge_mgsm_*
+EvoMerge-mergekit/mergekit
+chat_vector/chat_vector_mistral_7B_math

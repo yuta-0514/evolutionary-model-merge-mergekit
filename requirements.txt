@@ -1,2 +1,8 @@
-transformers
-datasets
+accelerate == 1.1.1
+datasets == 3.1.0
+fasttext == 0.9.3
+python-dotenv
+rouge_score == 0.1.2
+transformers == 4.46.3
+# transformers == 4.37.2 chat vector
+vllm == 0.6.4.post1
