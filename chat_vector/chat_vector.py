@@ -44,8 +44,8 @@ def main(args):
         chat_vector = skilled_model.state_dict()[k] - base_model.state_dict()[k]
         new_v = v + chat_vector.to(v.device)
         v.copy_(new_v)
-    cp_model.save_pretrained(args.new_model_name)
-    cp_tokenizer.save_pretrained(args.new_model_name)
+    cp_model.save_pretrained(args.new_model)
+    cp_tokenizer.save_pretrained(args.new_model)
 
 
 if __name__ == "__main__":
